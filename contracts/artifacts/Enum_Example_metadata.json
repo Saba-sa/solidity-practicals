@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "u1",
+				"outputs": [
+					{
+						"internalType": "enum Enum_Example.user",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/exa_enum.sol": "Enum_Example"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/exa_enum.sol": {
+			"keccak256": "0x92786a0f4f9a41dd8f024ab48713d0c2a9c0da2f33dcd3a7b0c5e0277b92552f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d442848f87fb47e7b7cc5fb78e8cc8decbddd99e0cf1e2d820b333c3fcbf71f2",
+				"dweb:/ipfs/QmWgvGHBu4TVk2sZX8zGT1ESFAk73RP3wYWJGkrJZHZu7C"
+			]
+		}
+	},
+	"version": 1
+}

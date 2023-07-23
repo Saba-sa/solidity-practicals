@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"name": "checkEligibility",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"name": "ternaryAgeVerifier",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "ageVerify",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/voteEligebility.sol": "AgeVerifier"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/voteEligebility.sol": {
+			"keccak256": "0xd50dca92fd6d56151f7c4aa8a3f5b2aae22779473e54231d3b17d9910e66b0f2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://98414ae1aae441d3061a6a0e41e6faff96bb76de848a82a2ad137850ace2da23",
+				"dweb:/ipfs/QmTx8NzKEgqWTEg9wuK2UieXXRsPxEu5ERsEGPviUbSgf1"
+			]
+		}
+	},
+	"version": 1
+}

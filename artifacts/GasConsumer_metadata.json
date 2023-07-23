@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "iterations",
+						"type": "uint256"
+					}
+				],
+				"name": "consumeGas",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"token1.sol": "GasConsumer"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"token1.sol": {
+			"keccak256": "0x6caff04a152436f24c00198f73f298df8496916555a20f9dcb4b55e191393e7d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ccb846d11d539a86c9f271a00f76f13fe42eaf1db51cbf000362f65b2ed2af25",
+				"dweb:/ipfs/QmYBGFNBtS9NVj5Yt9ixVxxQpPsjrzmETpLrdZGfoc3hjz"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/immutable.sol": "GasConsumer"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/immutable.sol": {
+			"keccak256": "0x469a67e6dd333fa081e8910fda70ea5ac8a7b317a4581498028cc218ca1482d7",
+			"urls": [
+				"bzz-raw://dace12c1788a527f3ae57236bff04070d4ee53b029231beb3ba0ca7338f77d98",
+				"dweb:/ipfs/QmPBurH63nCczbLP3hbnwf9fb79thmdnXxjPk7w2JufnZG"
+			]
+		}
+	},
+	"version": 1
+}

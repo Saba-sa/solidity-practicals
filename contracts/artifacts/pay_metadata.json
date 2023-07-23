@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Payable",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "sendEtherAccount",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Exapayable.sol": "pay"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Exapayable.sol": {
+			"keccak256": "0x3ef9ff8d39891409386f3e21affcbb62ad057f6a3a61c2edf2760836a6a57b75",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://af3dd8610558842d9c79889ccab337311c27eca790c8bf918ad1806c1733918a",
+				"dweb:/ipfs/QmP7mh8q7p25TcVLixCN77292VcdgSMV49D9sfL5CvpxgK"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "storedData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/const.sol": "Variable"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/const.sol": {
+			"keccak256": "0x833e5d3e9433136476f48ec5b3aa0da306b81ddcf45e196842ae0c453463964b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://665988c9939268c8d6748010e1e156aec45606219c460bf4c70d2a9fe9c953d8",
+				"dweb:/ipfs/QmchbDspkK6dD8ZzXoZK9BVR8PBp5B8dhqRB2ALzSk37sz"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "PI",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "radius",
+						"type": "uint256"
+					}
+				],
+				"name": "calculateArea",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/const.sol": "ConstVariable"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/const.sol": {
+			"keccak256": "0x6c34c40f198d995533af05108b5766c115418cb840561303e9057d95d204acac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2629b64ebdfdf02328794872e6a249e3cad6350e2abf5e974c328e5b9e83a776",
+				"dweb:/ipfs/QmQzSRkUgRSf78J8gF2FVC9rPMrj5MK2KykEbESo6jrjoj"
+			]
+		}
+	},
+	"version": 1
+}
