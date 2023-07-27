@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.8.17+commit.8df45f5f"
 	},
 	"language": "Solidity",
 	"output": {
@@ -45,9 +45,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/immutable.sol": "immutableVar"
+			"contracts/15-7 immutable.sol": "immutableVar"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/immutable.sol": {
+		"contracts/15-7 immutable.sol": {
 			"keccak256": "0x277fdcb39efdc6d43ffc20b0747f18bb57925775c617f61b8fd5211e99d6ddfa",
 			"license": "MIT",
 			"urls": [

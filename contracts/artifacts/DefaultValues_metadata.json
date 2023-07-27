@@ -71,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/unassignedDefault.sol": "DefaultValues"
+			"contracts/10-7 unassignedDefault.sol": "DefaultValues"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -85,7 +85,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/unassignedDefault.sol": {
+		"contracts/10-7 unassignedDefault.sol": {
 			"keccak256": "0xb023230cf3c9abcb2401e65f7e417d9ea8d25b729af4b980bd2f8f388494f559",
 			"license": "MIT",
 			"urls": [

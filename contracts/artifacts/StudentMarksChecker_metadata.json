@@ -67,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/studentGrade.sol": "StudentMarksChecker"
+			"contracts/15-7 part 2 studentGrade.sol": "StudentMarksChecker"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -81,7 +81,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/studentGrade.sol": {
+		"contracts/15-7 part 2 studentGrade.sol": {
 			"keccak256": "0x96dc5d3775327dc9feb289603639ecc8f98067cda8391a7c20b94fbd2d1bcccc",
 			"license": "MIT",
 			"urls": [

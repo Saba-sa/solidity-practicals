@@ -6,14 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "int256",
-						"name": "number",
-						"type": "int256"
-					}
-				],
-				"name": "checkInteger",
+				"inputs": [],
+				"name": "greet",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -21,7 +15,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -38,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/15-7 part 2 dataTypeIndicator.sol": "IntegerChecker"
+			"contracts/4-7 HelloWorld.sol": "HelloWorld"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -52,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/15-7 part 2 dataTypeIndicator.sol": {
-			"keccak256": "0xcabd5b20b8c637e08fcf90d59300508cbffcef6b8e930de771e397fa9b7efdbb",
+		"contracts/4-7 HelloWorld.sol": {
+			"keccak256": "0x3ab704e2e483cb1331a382fb605d76343e7f87eaf71e30831ff7ff6d07fcf62a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1cd160d3deec2dfca7e559f924dc1ee197f4437fe10edc1348f8d1837add9805",
-				"dweb:/ipfs/QmcJqevRfZTvZuyPFPc7FPKpm1GG6dVMyuMr9iMyJ2H7YD"
+				"bzz-raw://205e9aae6664a32562afa1c4c70dea39b72fc13df43b36969baacc3660a94418",
+				"dweb:/ipfs/QmduFbMJhura3UDSJWTBSUw6TV1TWfYh3Hc7koaqXgk4sn"
 			]
 		}
 	},
