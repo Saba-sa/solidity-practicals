@@ -1,0 +1,131 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Gender",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "MetaAddress",
+						"type": "address"
+					}
+				],
+				"name": "Form1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_Name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_Gender",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_MetaAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Form2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_Name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_Gender",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_MetaAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Form3",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_Name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_Gender",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_MetaAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/31-7 functionTask2.sol": "FunctionForms"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/31-7 functionTask2.sol": {
+			"keccak256": "0xf51e3091a3a2a3ddf511496ebe4a5ba835155e1edc60077ba25e75c4bd09d910",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://135305540e5dd7c5e249e0aec0bf41ada65587c7974f2b278a7de190569c6e57",
+				"dweb:/ipfs/QmYoejdCDKDfFrWGuv25R7fyY1ieGxF7Dz8rmDNN4XCium"
+			]
+		}
+	},
+	"version": 1
+}

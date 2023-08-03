@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "P1",
+				"outputs": [
+					{
+						"internalType": "enum PizzaDeli.PizzaOrder",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "P2",
+				"outputs": [
+					{
+						"internalType": "enum PizzaDeli.PizzaOrder",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "P3",
+				"outputs": [
+					{
+						"internalType": "enum PizzaDeli.PizzaOrder",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getter",
+				"outputs": [
+					{
+						"internalType": "enum PizzaDeli.PizzaOrder",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum PizzaDeli.PizzaOrder",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum PizzaDeli.PizzaOrder",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum PizzaDeli.PizzaOrder",
+						"name": "_i",
+						"type": "uint8"
+					}
+				],
+				"name": "set_P1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/01-8 enumTask1  1.sol": "PizzaDeli"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/01-8 enumTask1  1.sol": {
+			"keccak256": "0x4911339898ba9b08041f6c0d9c6801eba6a1fa77d431366d0dbe66ecd18da1d3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://afe9d8281f367ff1c0f3904bf6f3695c7e7bd67aca46bb6f44f5b7b0d0e975e9",
+				"dweb:/ipfs/QmbLpyo6WVyL6KNJaqZmPj655qnKRQmrBpmtZTUXZKu4cE"
+			]
+		}
+	},
+	"version": 1
+}

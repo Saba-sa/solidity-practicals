@@ -9,16 +9,38 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "i",
 						"type": "uint256"
 					}
 				],
-				"name": "arr",
+				"name": "addValue",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum example.example1",
+								"name": "occupation",
+								"type": "uint8"
+							},
+							{
+								"internalType": "enum example.example2",
+								"name": "teacher",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct example.struct1",
 						"name": "",
-						"type": "uint256"
+						"type": "tuple"
 					}
 				],
 				"stateMutability": "view",
@@ -28,16 +50,99 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "item",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "i",
+						"name": "_i",
 						"type": "uint256"
 					}
 				],
-				"name": "pushItem",
+				"name": "change",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "exa1",
+				"outputs": [
+					{
+						"internalType": "enum example.example1",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "exa2",
+				"outputs": [
+					{
+						"internalType": "enum example.example2",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "nameStruct",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum example.example1",
+						"name": "occupation",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum example.example2",
+						"name": "teacher",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum example.example1",
+						"name": "_occ",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum example.example2",
+						"name": "_teach",
+						"type": "uint8"
+					}
+				],
+				"name": "pushing",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -71,11 +176,11 @@
 	},
 	"sources": {
 		"contracts/del.sol": {
-			"keccak256": "0xf1ee40e2f8bc9e3991814c44c80cd04d35ecc3d000d3726c09842fa4c045687d",
+			"keccak256": "0x4bd84898fc5b14e1f5467daf3f041f39f34a430e767c7b6b9a301329c37cb2a5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6b2e420f717c55e2835925e5afb519cba211f70d4dfd206d1ab705e5a040d769",
-				"dweb:/ipfs/QmSmZSrg6kKcZPt8UH6xjw2NhQ1m6GKhkNnyNPgwJkJqCC"
+				"bzz-raw://a6ccaf28585cbe338812928e5ba1850935509d353d38c7221558f6c7ed7925ac",
+				"dweb:/ipfs/QmS1Z4TaH23vpwS9SBxv7Ya3f6Qy3DyjZ2cxCkWyeBKMpu"
 			]
 		}
 	},

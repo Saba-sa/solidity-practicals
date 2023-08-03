@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.8.17+commit.8df45f5f"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,18 +9,24 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "r",
 						"type": "uint256"
 					}
 				],
-				"name": "input",
-				"outputs": [],
+				"name": "circumference_calculator",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "num",
+				"name": "curcumference",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -33,7 +39,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "output",
+				"name": "pi",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -58,9 +64,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/15-7 immutable3.sol": "SimpleStorage"
+			"contracts/31-7 functionTask3.sol": "Claculate_curcumference"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -72,12 +78,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/15-7 immutable3.sol": {
-			"keccak256": "0x4d9b14077620f010e1670bf8a1613dd4a24f3b0c21c893c3a5b8555162eb61b7",
+		"contracts/31-7 functionTask3.sol": {
+			"keccak256": "0x5f64c092a6169ac4c73033a0ed088a96c36b3335a1ab800ba96af145f2409ca1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0f2b06754a0577f9340e03fd6a43d7c97f9081373e3f441d069d32492ca73dde",
-				"dweb:/ipfs/QmZ7KimabSCWxrBThfHKAkqfCkxFRxouAHq1Rc3F2muLet"
+				"bzz-raw://c68e788ad9934d6c9909c0d3b0b5645bf0e22655c4b7acf4dafeb4344e119917",
+				"dweb:/ipfs/QmXVuvcSDYTgNMiHFpg4z6tNEjtUEF66xt553J6nJB5jG6"
 			]
 		}
 	},

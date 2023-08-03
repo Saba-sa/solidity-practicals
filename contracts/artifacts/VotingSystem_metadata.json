@@ -8,86 +8,81 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_roll",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_Name",
+						"type": "string"
 					},
 					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_roll",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					}
-				],
-				"name": "changeS1",
+				"name": "create1",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "s1",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "roll",
-						"type": "uint256"
-					},
+				"inputs": [
 					{
 						"internalType": "string",
-						"name": "name",
+						"name": "_Name",
 						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"name": "create2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "s2",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "roll",
-						"type": "uint256"
-					},
+				"inputs": [
 					{
 						"internalType": "string",
-						"name": "name",
+						"name": "_Name",
 						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"name": "create3",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "s3",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "roll",
+						"name": "_index",
 						"type": "uint256"
-					},
+					}
+				],
+				"name": "get",
+				"outputs": [
 					{
 						"internalType": "string",
-						"name": "name",
+						"name": "Name",
 						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "hasVoted",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -97,16 +92,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_roll",
+						"name": "_index",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
 					}
 				],
-				"name": "set_S2",
+				"name": "togglehasVoted",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -115,18 +105,29 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_roll",
+						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
 					}
 				],
-				"name": "set_S3",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "voters",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "hasVoted",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -143,7 +144,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Exastruct.sol": "structExample"
+			"contracts/01-8 structTask1.sol": "VotingSystem"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -157,12 +158,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Exastruct.sol": {
-			"keccak256": "0x52bb0c7a8acf6e6a426f93b0766d1fa5b34f3d0a0de3e40d84c765cc51fab621",
+		"contracts/01-8 structTask1.sol": {
+			"keccak256": "0x94526cad4ed357f0aa62cb3af5311f93897d08fcc0741a84cd9460dd5e1bd057",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fa834d0764c32058d88109c97e4d5c1e86fab3c5f6d14ccad994b174fbed1f26",
-				"dweb:/ipfs/QmR52wYLhS38hzXChrDZ2T1cM4d8i93ZKjyNQcN18WkAM4"
+				"bzz-raw://372c422768666108da46db03ac466621084b950beb30ac1039a17406c24f7a85",
+				"dweb:/ipfs/QmQ44Lk73VjHxh6Np8CQMnUG8Vu7gj6eSBfijWAeXunSSt"
 			]
 		}
 	},

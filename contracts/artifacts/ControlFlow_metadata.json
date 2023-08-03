@@ -1,39 +1,20 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.8.17+commit.8df45f5f"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					}
-				],
-				"name": "input",
+				"inputs": [],
+				"name": "DOWhile",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "num",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "output",
+				"name": "sum",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -58,9 +39,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/15-7 immutable3.sol": "SimpleStorage"
+			"contracts/02-8 DoWhile.sol": "ControlFlow"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -72,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/15-7 immutable3.sol": {
-			"keccak256": "0x4d9b14077620f010e1670bf8a1613dd4a24f3b0c21c893c3a5b8555162eb61b7",
+		"contracts/02-8 DoWhile.sol": {
+			"keccak256": "0x2bf9a1314824746c43dc0e88dda71a14e83f34337a0101560c01d834b25c3b0d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0f2b06754a0577f9340e03fd6a43d7c97f9081373e3f441d069d32492ca73dde",
-				"dweb:/ipfs/QmZ7KimabSCWxrBThfHKAkqfCkxFRxouAHq1Rc3F2muLet"
+				"bzz-raw://4f89d26323cdd46bc23bf1986929fadb8ee40dfddffb546649b8dd4d56954cc7",
+				"dweb:/ipfs/QmYXhLM2h3Cyc9w6G7L6LhVG3dhHuJyjV1yMBp3qSRquj9"
 			]
 		}
 	},

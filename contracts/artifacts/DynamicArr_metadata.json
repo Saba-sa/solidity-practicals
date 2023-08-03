@@ -6,21 +6,15 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					}
-				],
-				"name": "input",
+				"inputs": [],
+				"name": "PopItem",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "num",
+				"name": "ReturnLength",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -32,13 +26,45 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "output",
-				"outputs": [
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "addItem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"name": "arr2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnFirstName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -58,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/15-7 immutable3.sol": "SimpleStorage"
+			"contracts/31-7 arrayTask2.sol": "DynamicArr"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -72,12 +98,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/15-7 immutable3.sol": {
-			"keccak256": "0x4d9b14077620f010e1670bf8a1613dd4a24f3b0c21c893c3a5b8555162eb61b7",
+		"contracts/31-7 arrayTask2.sol": {
+			"keccak256": "0x9c0980fb27d765e0d404a8279968a92eb5294916e2174c02e2cd16c13e79b8d2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0f2b06754a0577f9340e03fd6a43d7c97f9081373e3f441d069d32492ca73dde",
-				"dweb:/ipfs/QmZ7KimabSCWxrBThfHKAkqfCkxFRxouAHq1Rc3F2muLet"
+				"bzz-raw://c1660ce9b7b2834672026828cc37476774a3b26d1f92d950364656bcf28a828d",
+				"dweb:/ipfs/QmQ1PwMdRi65BuaNqJwPR3gCcz2xGPSCC7AP8z5cmeXgRU"
 			]
 		}
 	},

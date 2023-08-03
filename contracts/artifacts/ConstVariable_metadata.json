@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -51,9 +51,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/const.sol": "ConstVariable"
+			"contracts/15-7 const.sol": "ConstVariable"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -65,7 +65,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/const.sol": {
+		"contracts/15-7 const.sol": {
 			"keccak256": "0x6c34c40f198d995533af05108b5766c115418cb840561303e9057d95d204acac",
 			"license": "MIT",
 			"urls": [

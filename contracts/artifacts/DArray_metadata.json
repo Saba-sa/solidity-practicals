@@ -6,42 +6,53 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "GetArr1",
+				"outputs": [
+					{
+						"internalType": "uint256[4]",
+						"name": "",
+						"type": "uint256[4]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "input",
+				"name": "arr1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "give",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "output",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -58,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/15-7 immutable3.sol": "SimpleStorage"
+			"contracts/31-7 arrayTask1.sol": "DArray"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -72,12 +83,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/15-7 immutable3.sol": {
-			"keccak256": "0x4d9b14077620f010e1670bf8a1613dd4a24f3b0c21c893c3a5b8555162eb61b7",
+		"contracts/31-7 arrayTask1.sol": {
+			"keccak256": "0x1788bcc66d42864c450871e76277fb06fe03edab911661d741fbaaa2c3ad5d76",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0f2b06754a0577f9340e03fd6a43d7c97f9081373e3f441d069d32492ca73dde",
-				"dweb:/ipfs/QmZ7KimabSCWxrBThfHKAkqfCkxFRxouAHq1Rc3F2muLet"
+				"bzz-raw://51e774c024f3d4d80115442e9587ff2a6766d8a58ca506eb0326bb459eeebf46",
+				"dweb:/ipfs/QmR9FUFE91Xa5SGupW6MP5ryT93iNBEvxkqo2WQpmYrhy4"
 			]
 		}
 	},
