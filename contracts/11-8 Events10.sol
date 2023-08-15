@@ -9,4 +9,4 @@ contract Event {
         emit Log(msg.sender, "It's all about Decentralization"); 
         emit AnotherLog(); 
     } 
-} 
+}
