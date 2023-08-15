@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_x",
+						"type": "uint256[]"
+					}
+				],
+				"name": "fCalldata",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/07-8 dataLocation3.sol": "calldataDloc"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/07-8 dataLocation3.sol": {
+			"keccak256": "0x2a452b972afe46600149e13bd3ec3fdf941dbcb9607974a971eab881cf3839a8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://750c71aa25276eab2cee8b214aabd5f2bec0c4601e298ea8f980682f50dede44",
+				"dweb:/ipfs/QmXENtRfwMhEUAnnvwqDWLyJAJD5NGkQysyCXswGQofskg"
+			]
+		}
+	},
+	"version": 1
+}

@@ -30,8 +30,10 @@ ticket.push(Ticket({passenger:_passenger,day:_day,ticketType:_ticketType,isBooke
 }
 
 function getTicketType(uint256 _index) public view returns(TicketType){
-    Ticket memory ti=ticket[_index];
-    return (ti.ticketType);
+    return ticket[_index].ticketType;
+}
+function getTicketValues(uint256 _index) public view returns(Ticket memory){
+    return ticket[_index];
 }
 
 function getTicketDay(uint256 _index) public view returns (Days){

@@ -1,0 +1,177 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "enum Events.Quality",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "microprocessor",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "RAM",
+								"type": "uint256"
+							}
+						],
+						"indexed": false,
+						"internalType": "struct Events.specs",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Another",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "empty",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum Events.Quality",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"name": "mu",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "laptop",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					}
+				],
+				"name": "multi",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "laptop",
+						"type": "string"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "enum Events.Quality",
+						"name": "q",
+						"type": "uint8"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "microprocessor",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "RAM",
+								"type": "uint256"
+							}
+						],
+						"indexed": true,
+						"internalType": "struct Events.specs",
+						"name": "s",
+						"type": "tuple"
+					}
+				],
+				"name": "multiple",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "emits",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/11-8 Events6.sol": "Events"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/11-8 Events6.sol": {
+			"keccak256": "0xed387257b53527681adf40b2cd776e652f79ad277eed860d5f606501e10f41c1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://19e0bf77cf13b8a4dd8949c5a5ae14ce17ce76121aba9ef956532ccaeab27e42",
+				"dweb:/ipfs/QmVGcy8VcpBLUn1WXGtagaUH4XvsvZRgrrqX8gtae3u1zN"
+			]
+		}
+	},
+	"version": 1
+}

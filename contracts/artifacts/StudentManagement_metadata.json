@@ -1,0 +1,401 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum Department",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"name": "departmentCounts",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDepartmentStudentCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "Ai",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "blockchain",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "ecommerce",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "arts",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTopThreeStudents",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "studentName",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "studentAge",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "registrationDate",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum Department",
+								"name": "studentDepartment",
+								"type": "uint8"
+							},
+							{
+								"internalType": "enum Status",
+								"name": "studentStatus",
+								"type": "uint8"
+							},
+							{
+								"internalType": "uint256",
+								"name": "obtainedMarks",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Student",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "studentName",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "studentAge",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "registrationDate",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum Department",
+								"name": "studentDepartment",
+								"type": "uint8"
+							},
+							{
+								"internalType": "enum Status",
+								"name": "studentStatus",
+								"type": "uint8"
+							},
+							{
+								"internalType": "uint256",
+								"name": "obtainedMarks",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Student",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "studentName",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "studentAge",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "registrationDate",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum Department",
+								"name": "studentDepartment",
+								"type": "uint8"
+							},
+							{
+								"internalType": "enum Status",
+								"name": "studentStatus",
+								"type": "uint8"
+							},
+							{
+								"internalType": "uint256",
+								"name": "obtainedMarks",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rollNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_regDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Department",
+						"name": "_department",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum Status",
+						"name": "_status",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_marks",
+						"type": "uint256"
+					}
+				],
+				"name": "registerStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rollNo",
+						"type": "uint256"
+					}
+				],
+				"name": "retrieveDetail",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "studentName",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "studentAge",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "registrationDate",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum Department",
+								"name": "studentDepartment",
+								"type": "uint8"
+							},
+							{
+								"internalType": "enum Status",
+								"name": "studentStatus",
+								"type": "uint8"
+							},
+							{
+								"internalType": "uint256",
+								"name": "obtainedMarks",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "studentMap",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "studentName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "studentAge",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "registrationDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Department",
+						"name": "studentDepartment",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum Status",
+						"name": "studentStatus",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "obtainedMarks",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalStudents",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rollNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Department",
+						"name": "_department",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum Status",
+						"name": "_status",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_marks",
+						"type": "uint256"
+					}
+				],
+				"name": "updateStudentDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/08-8 StudentRegistrationSystem.sol": "StudentManagement"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/08-8 StudentRegistrationSystem.sol": {
+			"keccak256": "0x41c14d543644ee818b4781115754a981c4538e2eeaa72d10a196c3ff3a5feba7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b6174f0639a104e174b135b0b3227efebed8bb7259de0442c829c68003b7ac3d",
+				"dweb:/ipfs/QmWFEwS5oZ12CiGWpUdH3zCTY7KqTeWYzc1ytCdNLMAN95"
+			]
+		}
+	},
+	"version": 1
+}

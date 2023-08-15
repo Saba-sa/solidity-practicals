@@ -6,80 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "i",
-						"type": "uint256"
-					}
-				],
-				"name": "addValue",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "age",
-								"type": "uint256"
-							},
-							{
-								"internalType": "enum example.example1",
-								"name": "occupation",
-								"type": "uint8"
-							},
-							{
-								"internalType": "enum example.example2",
-								"name": "teacher",
-								"type": "uint8"
-							}
-						],
-						"internalType": "struct example.struct1",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_i",
-						"type": "uint256"
-					}
-				],
-				"name": "change",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "exa1",
+				"name": "count",
 				"outputs": [
 					{
-						"internalType": "enum example.example1",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "exa2",
-				"outputs": [
-					{
-						"internalType": "enum example.example2",
-						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -93,7 +26,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "nameStruct",
+				"name": "map1",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -104,16 +37,6 @@
 						"internalType": "uint256",
 						"name": "age",
 						"type": "uint256"
-					},
-					{
-						"internalType": "enum example.example1",
-						"name": "occupation",
-						"type": "uint8"
-					},
-					{
-						"internalType": "enum example.example2",
-						"name": "teacher",
-						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -121,6 +44,11 @@
 			},
 			{
 				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
 					{
 						"internalType": "string",
 						"name": "_name",
@@ -130,19 +58,9 @@
 						"internalType": "uint256",
 						"name": "_age",
 						"type": "uint256"
-					},
-					{
-						"internalType": "enum example.example1",
-						"name": "_occ",
-						"type": "uint8"
-					},
-					{
-						"internalType": "enum example.example2",
-						"name": "_teach",
-						"type": "uint8"
 					}
 				],
-				"name": "pushing",
+				"name": "setValue",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -161,7 +79,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/del.sol": "example"
+			"contracts/08-8 StudentRegistrationSystempractice.sol": "example"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -175,12 +93,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/del.sol": {
-			"keccak256": "0x4bd84898fc5b14e1f5467daf3f041f39f34a430e767c7b6b9a301329c37cb2a5",
+		"contracts/08-8 StudentRegistrationSystempractice.sol": {
+			"keccak256": "0x7d73c343d6c24db8a473113ebecd74c650b272c7346272e32cfe5ba20121d74c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a6ccaf28585cbe338812928e5ba1850935509d353d38c7221558f6c7ed7925ac",
-				"dweb:/ipfs/QmS1Z4TaH23vpwS9SBxv7Ya3f6Qy3DyjZ2cxCkWyeBKMpu"
+				"bzz-raw://afa530a131d04ca3f67ac330e9423f35c6ba9b9992829a16c71fbe73ecdcf110",
+				"dweb:/ipfs/QmSvKjbiw6ytdfTtmMTgPxELciDaXbtFrxdHNfjphz6RWH"
 			]
 		}
 	},

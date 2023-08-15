@@ -70,6 +70,47 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getTicketValues",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "passenger",
+								"type": "string"
+							},
+							{
+								"internalType": "enum TicketBookingSystem.TicketType",
+								"name": "ticketType",
+								"type": "uint8"
+							},
+							{
+								"internalType": "enum TicketBookingSystem.Days",
+								"name": "day",
+								"type": "uint8"
+							},
+							{
+								"internalType": "bool",
+								"name": "isBooked",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct TicketBookingSystem.Ticket",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -142,11 +183,11 @@
 	},
 	"sources": {
 		"contracts/02-8 TicketBookingSystem.sol": {
-			"keccak256": "0x167b9deee33b2d597a63eec4565cbacbdfe2ebaa244bda528318fb44dd9b65df",
+			"keccak256": "0xdc246dd233240e4298d18b1bfcf613d85060a114066ae2abf03a8f2df3c88fb2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e8f6df17d60d1db137f1041239d83f2eda81b8afdbac81f0be424cd3de9b5c82",
-				"dweb:/ipfs/QmeHkYJarDrqwutaB6FVNN3R42LcoqGt695puzk5Rd7KqN"
+				"bzz-raw://65faa71cc2e170c72ef5306235d747ffc004d9035ee190f05fdf7d1ad87a9abd",
+				"dweb:/ipfs/QmPpdGjLk8oLsvi5EdwtLXqhsHvDz1Ln44HNBm8ycnSaE3"
 			]
 		}
 	},
